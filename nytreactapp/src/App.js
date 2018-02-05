@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Jumbotron from "./components/Jumbotron";
 import Display from "./components/Display";
@@ -10,12 +9,11 @@ import Saved from "./components/Saved";
 class App extends Component {
   render() {
     return (
-      <div className = "container"> 
+      <div className = "container">
         <Jumbotron />
         <Search />
         <Display />
         <Saved />
-      
       </div>
     );
   }

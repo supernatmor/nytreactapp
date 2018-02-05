@@ -1,8 +1,8 @@
 import React from "react";
 
-const Jumbotron = () =>
-  <div className="jumbotron">
-    {/* New York Times React App */}
-  </div>;
+const Jumbotron = () =>{
+  return (<div className="jumbotron text-center">
+    <h2>New York Times React App</h2>
+  </div>)}
 
 export default Jumbotron;
